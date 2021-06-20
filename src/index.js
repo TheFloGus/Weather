@@ -1,5 +1,4 @@
 // eslint-disable-next-line import/extensions
-import './style.css'
 
 const {WeatherInfo, updateHistory, setLocal, getLocal} = require('./components/weatherObject')
 const {printData, printError, changeBG, printHistory} = require('./components/display')

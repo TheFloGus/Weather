@@ -5,20 +5,25 @@
   "main": "index.js",
   "dependencies": {
     "browserify": "^17.0.0",
+    "css-modulesify": "^0.28.0",
     "eslint": "^7.29.0",
     "eslint-config-airbnb": "^18.2.1"
   },
   "devDependencies": {
+    "babelify": "^10.0.0",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^3.4.0",
+    "esmify": "^2.1.1",
     "prettier": "^2.3.1"
   },
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "build:dev": "browserify src/index.js > dev/bundle.js",
+    "build:prod": "browserify src/index.js > prod/bundle.js"
   },
   "repository": {
     "type": "git",
