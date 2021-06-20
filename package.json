@@ -22,8 +22,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "build:dev": "browserify src/index.js > dev/bundle.js",
-    "build:prod": "browserify src/index.js > prod/bundle.js"
+    "build:dev": "browserify src/index.js -p esmify > dev/bundle.js",
+    "build:prod": "browserify src/index.js -p esmify > prod/bundle.js"
   },
   "repository": {
     "type": "git",
