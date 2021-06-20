@@ -1,0 +1,41 @@
+{
+	"name": "tms",
+	"version": "1.0.0",
+	"description": "### [Git](https://slides.com/danielsuleiman/git#/) - [Практика](./lesson1/task.js) - [Домашняя работа](./lesson1/homework.md) - [Полезные ссылки](./lesson1/usefull-links.md) ### [JS классы. Наследование](https://sulemanof.github.io/js-lectures/js-classes/presentation/#/) - [JS screening quiz](https://play.kahoot.it/v2/?quizId=f73697a2-fd7f-4bcd-863c-6cbf9f646b6f) - [Git Quiz](https://play.kahoot.it/v2/?quizId=3f5db8b0-4a4f-4c9b-9011-e001ddfefcd0) - [Практика](./lesson2/task.js) - [Домашняя работа](./lesson2/homework.md) - [Полезные ссылки](./lesson2/usefull-links.md) ### [Асинхронное программирование. Промисы.](https://sulemanof.github.io/js-lectures/async-development/presentation/#/) - [Практика](./lesson3/task.js) - [Домашняя работа](./lesson3/homework.md) - [Полезные ссылки](./lesson3/usefull-links.md) ### [Fetch](https://sulemanof.github.io/js-lectures/async-development/presentation/#/7) - [Практика](./lesson4/task.js) - [Домашняя работа](./lesson4/homework.md) - [Полезные ссылки](./lesson4/usefull-links.md) ### [Создаём свой компонент. Практика](./lesson5/task.md) - [Домашняя работа](./lesson5/homework.md) - [Полезные ссылки](./lesson5/usefull-links.md) ### [NPM. Работа со сторонними модулями](https://slides.com/danielsuleiman/npm#/) - [Практика](./lesson6/task.js) - [Домашняя работа](./lesson6/homework.md)",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"build:dev": "webpack --config webpack.dev.config.js",
+		"build:prod": "webpack --config webpack.prod.config.js",
+		"watch": "webpack serve --config webpack.dev.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/navysuntum/tms.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/navysuntum/tms/issues"
+	},
+	"homepage": "https://github.com/navysuntum/tms#readme",
+	"devDependencies": {
+		"copy-webpack-plugin": "^9.0.0",
+		"css-loader": "^5.2.6",
+		"eslint": "^7.28.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-prettier": "^3.4.0",
+		"file-loader": "^6.2.0",
+		"html-webpack-plugin": "^5.3.1",
+		"prettier": "^2.3.1",
+		"style-loader": "^2.0.0",
+		"webp-loader": "^0.6.0",
+		"webpack": "^5.38.1",
+		"webpack-cli": "^4.7.2",
+		"webpack-dev-server": "^3.11.2",
+		"webpack-merge": "^5.8.0"
+	}
+}
