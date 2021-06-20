@@ -53,10 +53,6 @@ $ npm run build:dev
 ```
 It now will be stored in the `dev` folder
 
-You can also use webpack's dev server by running: 
-
-```
-
 To build a production version use:
 
 ```
