@@ -56,9 +56,6 @@ It now will be stored in the `dev` folder
 You can also use webpack's dev server by running: 
 
 ```
-$ npm run watch
-```
-Note: only works with dev build of the project
 
 To build a production version use:
 
